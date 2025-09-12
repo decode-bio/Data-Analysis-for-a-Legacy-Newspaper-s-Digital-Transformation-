@@ -41,15 +41,19 @@ The project required a range of intermediate SQL skills to clean, analyze, and t
 * Complex Multi-Table Joins: Used JOIN to combine fact and dimension tables to create a unified dataset for analysis.
 * Advanced Aggregation: Employed SUM(), AVG(), COUNT(), and GROUP BY to compute core business metrics.
 * Conditional Aggregation: Utilized CASE statements to perform pivot tables, filter data based on specific conditions, and calculate metrics for different years within a single query.
-* Window Functions: Applied LAG() to calculate month-over-month decline and RANK() to rank cities based on performance metrics.
-* Date Functions: Used various date functions (TO_DATE, DATE_PART) to extract years and months for time-series analysis and sorting.
+* Date: Here I have not converted YYYY-MM or MM - YY into date format as I want to use it as string later.
 
 ## Analysis & Key Findings
 The final analysis provided a clear picture of the company's challenges and opportunities:
 
-* Print Decline Trends: Print circulation has dropped by more than 50% between 2019 and 2024, with the sharpest declines occurring in metropolitan Tier 1 cities.
-* Ad Revenue Concentration: While total ad revenue is declining, the FMCG and Real Estate ad categories consistently contributed over 50% of yearly revenue, indicating these are key relationships to protect.
-* Digital Transformation Roadmap: A comprehensive prioritization model revealed that Bhopal, Ahemdabad, and Lucknow are the ideal candidates for the Phase 1 digital relaunch. These cities demonstrated a strong combination of high digital readiness, proven pilot engagement, and a significant decline in print sales, indicating a strong market need for a digital alternative.
+* In 2024, Jaipur had the highest circulation at approximately 41.28 lakh copies, while Varanasi was a close second with 41.23 lakh copies. Lucknow had the lowest circulation at 17.63 lakh copies.
+* Over the period from 2019 to 2024, the difference between copies sold and net circulation was largest in Jaipur, with 16.76 lakh copies returned.
+* Despite earning the largest revenue at 17 billion INR, Patna's net circulation ranks third from the bottom.
+* While Kanpur has the highest Digital Readiness Score, it shows low engagement with a low Activation Rate and a high Bounce Rate. Additionally, Ranchi has the lowest digital engagement.
+* **Digital Transformation Roadmap:** A comprehensive prioritization model revealed that Bhopal, Ahemdabad, and Lucknow are the ideal candidates for the Phase 1 digital relaunch. These cities demonstrated a strong combination of high digital readiness, proven pilot engagement, and a significant decline in print sales, indicating a strong market need for a digital alternative.
+* **Print Decline Trends:** Print circulation has dropped by more than 50% between 2019 and 2024, with the sharpest declines occurring in metropolitan Tier 1 cities.
+* **Ad Revenue Concentration:** While total ad revenue is declining, the FMCG and Real Estate ad categories consistently contributed over 50% of yearly revenue, indicating these are key relationships to protect.
+  
 
 
 
